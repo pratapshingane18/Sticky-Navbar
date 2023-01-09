@@ -30,4 +30,37 @@ body{
 .navbar{
     display:flex;
     position: fixed;
+    background-color:lightgreen;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.navbar ul{
+    display:flex;
+    list-style-type:none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family:cursive;
+
+
+}
+
+.navbar ul li a:hover{
+    color:crimson;
+}
+
+.navbar.active{
+    background-color: white;
+
+}
+
+.navbar.active ul li a{
+    color: grey;
+
 }
